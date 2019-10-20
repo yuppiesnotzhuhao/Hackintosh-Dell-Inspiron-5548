@@ -1,0 +1,65 @@
+9:371  0:968  Found UEFI Acpi 2.0 RSDP at 9CFFE014
+9:371  0:000  Saving ACPI tables from RSDP 9CFFE014 to EFI\CLOVER\ACPI\origin ...
+9:371  0:000   9CFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+10:933  1:561    (Xsdt: 9CFCA188, Rsdt: 9CFCA0C4)
+10:933  0:000    9CFCA188: 'XSDT', 'CL09', Rev: 1, Len: 220 -> XSDT.aml
+11:037  0:103    9CFCA0C4: 'RSDT', 'CL09', Rev: 1, Len: 128 -> RSDT.aml
+11:139  0:102    Tables in Xsdt: 23
+11:139  0:000    0. 9CFF5000: 'FACP', 'CL09', Rev: 5, Len: 268 -> FACP.aml
+11:243  0:103        (Dsdt: 9CFDB000, Facs: 9CFB7000, XDsdt: 9CFDB000, XFacs: 0)
+11:243  0:000        9CFDB000: 'DSDT', 'CL09', Rev: 2, Len: 83638 -> DSDT.aml
+11:388  0:144        9CFB7000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+11:492  0:103    1. 9CFFD000: 'SLIC', 'CL09', Rev: 1, Len: 374 -> SLIC.aml
+11:594  0:102    2. 9CFFC000: 'UEFI', 'CL09', Rev: 1, Len: 566 -> UEFI.aml
+11:697  0:103    3. 9CFFB000: 'UEFI', 'CL09', Rev: 1, Len: 66 -> UEFI.aml
+13:645  1:947    4. 9CFFA000: 'MSDM', 'CL09', Rev: 3, Len: 85 -> MSDM.aml
+13:747  0:101    5. 9CFF9000: 'ASF!', 'CL09', Rev: 32, Len: 165 -> ASF!.aml
+13:850  0:103    6. 9CFF8000: 'ASPT', 'CL09', Rev: 7, Len: 52 -> ASPT.aml
+13:952  0:102    7. 9CFF7000: 'BOOT', 'CL09', Rev: 1, Len: 40 -> BOOT.aml
+14:056  0:103    8. 9CFF6000: 'DBGP', 'CL09', Rev: 1, Len: 52 -> DBGP.aml
+14:158  0:102    9. 9CFF4000: 'HPET', 'CL09', Rev: 1, Len: 56 -> HPET.aml
+14:277  0:118    10. 9CFF3000: 'LPIT', 'CL09', Rev: 1, Len: 148 -> LPIT.aml
+14:374  0:096    11. 9CFF2000: 'APIC', 'CL09', Rev: 3, Len: 140 -> APIC.aml
+14:469  0:095    12. 9CFF1000: 'MCFG', 'CL09', Rev: 1, Len: 60 -> MCFG.aml
+14:566  0:096    13. 9CFF0000: 'SLIC', 'CL09', Rev: 1, Len: 374 -> SLIC.aml
+15:181  0:614    14. 9CFD7000: 'SSDT', 'HSW-LPT', Rev: 2, Len: 13359 -> SSDT-0-HSW-LPT.aml
+15:299  0:118    15. 9CFD6000: 'SSDT', 'HSW-LPT', Rev: 2, Len: 1337 -> SSDT-1-HSW-LPT.aml
+15:402  0:103    16. 9CFD5000: 'SSDT', 'HSW-LPT', Rev: 2, Len: 2932 -> SSDT-2-HSW-LPT.aml (Found hidden SSDT 4 pcs)
+15:504  0:102        * 8E50C598: 'SXCS', ' ÏzŽ', Rev: 72, Len: 0  53 58 43 53 00 00 00 00 48 E0 7A 8E 00 00 00 00 
+15:504  0:000        * 9CCCF618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 D1 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x2_0-ApIst.aml
+15:638  0:133        * 9CCCE918: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 979  53 53 44 54 D3 03 00 00 02 B1 50 6D 52 65 66 00 Internal length = 979 -> SSDT-x2_1-Cpu0Cst.aml
+15:734  0:096        * 9CCCDD98: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 ED 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x2_2-ApCst.aml
+15:829  0:095  
+15:829  0:000    17. 9CFCF000: 'SSDT', 'HSW-LPT', Rev: 2, Len: 23604 -> SSDT-3-HSW-LPT.aml
+15:949  0:119    18. 9CFCD000: 'SSDT', 'HSW-LPT', Rev: 1, Len: 6942 -> SSDT-4-HSW-LPT.aml
+16:059  0:109    19. 9CFCC000: 'DMAR', 'CL09', Rev: 1, Len: 212 -> DMAR.aml
+16:170  0:110    20. 9CFCB000: 'CSRT', 'CL09', Rev: 1, Len: 196 -> CSRT.aml
+16:279  0:109    21. 9CFC8000: 'FPDT', 'CL09', Rev: 1, Len: 68 -> FPDT.aml
+16:844  0:564    22. 9CFC9000: 'BGRT', 'CL09', Rev: 1, Len: 56 -> BGRT.aml
+17:420  0:576    Tables in Rsdt: 23
+17:420  0:000    0. 9CFF5000: 'FACP', 'CL09', Rev: 5, Len: 268
+17:420  0:000        (Dsdt: 9CFDB000, Facs: 9CFB7000, XDsdt: 9CFDB000, XFacs: 0)
+17:420  0:000        9CFDB000: 'DSDT', 'CL09', Rev: 2, Len: 83638
+17:422  0:002        9CFB7000: 'FACS', Ver: 2, Len: 64
+17:422  0:000    1. 9CFFD000: 'SLIC', 'CL09', Rev: 1, Len: 374
+17:422  0:000    2. 9CFFC000: 'UEFI', 'CL09', Rev: 1, Len: 566
+17:422  0:000    3. 9CFFB000: 'UEFI', 'CL09', Rev: 1, Len: 66
+17:422  0:000    4. 9CFFA000: 'MSDM', 'CL09', Rev: 3, Len: 85
+17:422  0:000    5. 9CFF9000: 'ASF!', 'CL09', Rev: 32, Len: 165
+17:422  0:000    6. 9CFF8000: 'ASPT', 'CL09', Rev: 7, Len: 52
+17:422  0:000    7. 9CFF7000: 'BOOT', 'CL09', Rev: 1, Len: 40
+17:422  0:000    8. 9CFF6000: 'DBGP', 'CL09', Rev: 1, Len: 52
+17:422  0:000    9. 9CFF4000: 'HPET', 'CL09', Rev: 1, Len: 56
+17:422  0:000    10. 9CFF3000: 'LPIT', 'CL09', Rev: 1, Len: 148
+17:422  0:000    11. 9CFF2000: 'APIC', 'CL09', Rev: 3, Len: 140
+17:422  0:000    12. 9CFF1000: 'MCFG', 'CL09', Rev: 1, Len: 60
+17:422  0:000    13. 9CFF0000: 'SLIC', 'CL09', Rev: 1, Len: 374
+17:422  0:000    14. 9CFD7000: 'SSDT', 'HSW-LPT', Rev: 2, Len: 13359
+17:422  0:000    15. 9CFD6000: 'SSDT', 'HSW-LPT', Rev: 2, Len: 1337
+17:422  0:000    16. 9CFD5000: 'SSDT', 'HSW-LPT', Rev: 2, Len: 2932
+17:422  0:000    17. 9CFCF000: 'SSDT', 'HSW-LPT', Rev: 2, Len: 23604
+17:422  0:000    18. 9CFCD000: 'SSDT', 'HSW-LPT', Rev: 1, Len: 6942
+17:422  0:000    19. 9CFCC000: 'DMAR', 'CL09', Rev: 1, Len: 212
+17:422  0:000    20. 9CFCB000: 'CSRT', 'CL09', Rev: 1, Len: 196
+17:422  0:000    21. 9CFC8000: 'FPDT', 'CL09', Rev: 1, Len: 68
+17:422  0:000    22. 9CFC9000: 'BGRT', 'CL09', Rev: 1, Len: 56
