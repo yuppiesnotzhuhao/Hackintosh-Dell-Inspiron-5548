@@ -2,7 +2,7 @@ Dell Inspiron 5548 (4528S) for macOS Mojave
 ====
 这是我使用的Dell Inspiron 5548(4528S)的CLOVER引导文件，其他机型请自测  
 
-电脑配置
+电脑配置  
 ----
 规格	详细信息  
 电脑型号	戴尔 Inspiron 5548 笔记本电脑  
@@ -21,7 +21,7 @@ Dell Inspiron 5548 (4528S) for macOS Mojave
 
 安装时请使用镜像自带Clover，安装完成后替换此EFI  
 ----
-驱动详情  
+详情  
 ----
 1、hotpatch补丁实现显卡驱动  
 2、Cpufriend和CPUFriendDataProvider实现CPU变频  
@@ -30,3 +30,6 @@ Dell Inspiron 5548 (4528S) for macOS Mojave
 5、有线网卡可用，自带英特尔3160无线网卡更换为DW1820A后无线和蓝牙可用  
 6、hotpatch补丁实现亮度调节，笔记本Fn快捷键可用  
 7、声卡为ALC255，使用 AppleALC 仿冒，注入layout-id:11，麦克风未测试  
+已知问题  
+----
+睡眠后不能唤醒
