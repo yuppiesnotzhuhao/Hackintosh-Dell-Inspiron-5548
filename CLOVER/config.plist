@@ -295,6 +295,34 @@
 					RVNFWgg=
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename XHCI to XHC (USB)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					WEhDSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WEhDXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename XHC1 to XHC (USB)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					WEhDMQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WEhDXw==
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DisabledAML</key>
@@ -334,7 +362,7 @@
 			<string>SSDT-PNLF.aml</string>
 			<string>SSDT-HDEF.aml</string>
 			<string>SSDT-HDAU.aml</string>
-			<string>SSDT-Disable-DGPU.aml</string>
+			<string>SSDT-UIAC.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
@@ -342,9 +370,9 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>-v dart=0 nv_disable=1 kext-dev-mode=1 debug=0x100 -alcbdbg -liludbg brcmfx-country=#a</string>
+		<string>-v dart=0 nv_disable=1 kext-dev-mode=1 debug=0x100 -alcbdbg -liludbg brcmfx-country=#a -wegnoegpu</string>
 		<key>NeverHibernate</key>
-		<false/>
+		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
@@ -625,7 +653,7 @@
 			<key>ATI</key>
 			<false/>
 			<key>Intel</key>
-			<true/>
+			<false/>
 			<key>NVidia</key>
 			<false/>
 		</dict>
