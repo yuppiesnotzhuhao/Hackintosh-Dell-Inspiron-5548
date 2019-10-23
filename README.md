@@ -31,7 +31,4 @@ Dell Inspiron 5548 (4528S) for macOS Mojave
 5、有线网卡可用，自带英特尔3160无线网卡更换为DW1820A后无线和蓝牙可用  
 6、hotpatch补丁实现亮度调节，笔记本Fn快捷键可用  
 7、声卡为ALC255，使用 AppleALC 仿冒，注入layout-id:11，麦克风未测试  
-
-已知问题  
-
-睡眠后不能唤醒
+8、现在usb已经内建，同时DSDT打补丁修复了睡眠唤醒
