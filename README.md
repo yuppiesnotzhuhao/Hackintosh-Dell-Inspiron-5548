@@ -17,7 +17,7 @@ Dell Inspiron 5548 (4528S) for macOS big sur 11.2.3
 
 高分屏需要开启csm
 
-efi-broadcom为dw1820a驱动
+efi-broadcom为dw1820a驱动  
 efi-intel为Intel无线网卡驱动
 
 Intel无线网卡驱动暂未自测，有任何问题请反馈
